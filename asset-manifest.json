@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/facesearchai/static/css/main.21f2e568.css",
+    "main.js": "/facesearchai/static/js/main.6e651fc3.js",
+    "static/js/453.4f902783.chunk.js": "/facesearchai/static/js/453.4f902783.chunk.js",
+    "static/media/home2.png": "/facesearchai/static/media/home2.8a646a7d5543185b698c.png",
+    "static/media/about.jpg": "/facesearchai/static/media/about.773d165469d22964b981.jpg",
+    "index.html": "/facesearchai/index.html",
+    "main.21f2e568.css.map": "/facesearchai/static/css/main.21f2e568.css.map",
+    "main.6e651fc3.js.map": "/facesearchai/static/js/main.6e651fc3.js.map",
+    "453.4f902783.chunk.js.map": "/facesearchai/static/js/453.4f902783.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21f2e568.css",
+    "static/js/main.6e651fc3.js"
+  ]
+}
