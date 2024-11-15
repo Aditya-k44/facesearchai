@@ -12,7 +12,7 @@ const Download = () => {
         <p>Get the app on your preferred store:</p>
 
         <a
-          href="https://play.google.com/store/apps"
+          href="https://play.google.com/store/apps/details?id=com.facesearch.app"
           target="_blank"
           rel="noopener noreferrer"
           className="store-button"
@@ -26,7 +26,7 @@ const Download = () => {
         </a>
 
         <a
-          href="https://play.google.com/store/apps/details?id=com.facesearch.app"
+          href="https://www.apple.com/app-store/"
           target="_blank"
           rel="noopener noreferrer"
           className="store-button"
