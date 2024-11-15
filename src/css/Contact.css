@@ -1,0 +1,14 @@
+.contact-social-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+ 
+  .contact-social-icon {
+    color: #009999;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  

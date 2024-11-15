@@ -1,0 +1,35 @@
+.token-content {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+
+  .token-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+  .token-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+
+  .token-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #0080FF;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  

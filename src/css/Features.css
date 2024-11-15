@@ -1,0 +1,60 @@
+.features-container {
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .feature-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    animation: scroll 20s linear infinite;
+    padding-left: 0;
+  }
+  
+  
+  .feature-cards-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    flex-shrink: 0;
+    width: 100%;
+  }
+  
+  
+  .feature-card {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .feature-card.famoon {
+    background-color: #99CCFF;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feature-card.fasun {
+    background-color: #99CCFF;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

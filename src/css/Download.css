@@ -1,0 +1,50 @@
+.download-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  
+  .store-button {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    margin: 8px;
+    background-color: #3c9d3e;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+  }
+  
+  
+  .store-button .icon {
+    margin-bottom: 4px;
+    margin-right: 15px;
+  }
+  
+  
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .small-text {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  
+  .large-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --link-hover-color: #1e90ff;
+}
+
+
+[data-theme='dark'] {
+  --bg-color: #333333;
+  --text-color: #ffffff;
+  --link-hover-color: #ff6347;
+}

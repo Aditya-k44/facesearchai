@@ -1,0 +1,64 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 40%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  
+  .text-container {
+    flex: 2;
+    max-width: 55%;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+  }
+  
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+  }
+  
+  
+  .upload-button-container {
+    margin-top: 20px;
+  }
+  
+  
+  .file-input {
+    display: none;
+  }
+  
+  
+  .upload-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+  }
+  

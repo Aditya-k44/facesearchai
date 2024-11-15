@@ -1,0 +1,44 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+  
+  .about-image-container {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 40%;
+  }
+  
+  .about-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+
+  .about-text-container {
+    flex: 2;
+    max-width: 55%;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+  }
+  
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --link-hover-color: #1e90ff;
+  }
+  
+
+  [data-theme='dark'] {
+    --bg-color: #333333;
+    --text-color: #ffffff;
+    --link-hover-color: #ff6347;
+  }
+  
